@@ -25,7 +25,7 @@ def hello_world():
 
 @app.route("/products")
 def product():
-    return "This is the Product page"
+    return "This is a Product page"
 
 if __name__ == "__main__":
     app.run(debug=True)
